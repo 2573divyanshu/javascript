@@ -39,6 +39,7 @@
 // var a = 2;
 // let a = 3;
 // this is illegal
+// this leads to a syntax error
 
 // block statement is also called compound statement
 // it is used to combine a set of statements in place where javascript expects a single statement

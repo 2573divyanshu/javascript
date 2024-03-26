@@ -7,7 +7,7 @@
 //     console.log("Namaste JavaScript");
 // };
 // console.log(getName);
-// hoisting is a phenomeno in javascript due to which we can access variables and functions even before we have intialized them
+// hoisting is a phenomena in javascript due to which we can access variables and functions even before we have intialized them
 
 // example 2
 // console.log(getName);
@@ -30,3 +30,6 @@ var getName = function(){
 };
 console.log(getName);
 // function expressions are hoisted with undefined (they behave like variables)
+
+// variables, function expressions and arrow functions are hoisted with value undefined
+// normal functions (function statements) are hoisted with the function definitions

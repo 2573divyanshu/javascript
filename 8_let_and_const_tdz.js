@@ -37,4 +37,3 @@
 // avoid var
 
 // to avoid tdz, have intializations at the top
-

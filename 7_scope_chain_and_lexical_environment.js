@@ -9,7 +9,6 @@
 // b isn't in local environment of a
 // so value of b is searched in the parent's environment
 // means the code inside the function a is able to access the code outside the function a
-// 
 
 // example 2
 // function a(){
@@ -31,7 +30,7 @@
 //     };
 // };
 // a();
-// b is accessible with function a and function c
+// b is accessible withing function a and function c
 // b isn't accessible from outside of the function
 
 // what is the scope of a variable m
@@ -40,7 +39,7 @@
 // lexical environment is the local environment + the lexical environment of the parent
 // it's created whenever a ec is created
 
-// the chain of lexical environments that the js engine traverses in order to find the value of a variable or a function is the scop chain
+// the chain of lexical environments that the js engine traverses in order to find the value of a variable or a function is the scope chain
 
 // example 4
 function a(){

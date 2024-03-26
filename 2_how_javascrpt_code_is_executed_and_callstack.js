@@ -11,7 +11,7 @@ console.log(square2);
 console.log(square4);
 
 // behind the scences
-// the execution context is create in two phases: memory creation phase and code execution phase
+// the execution context is created in two phases: memory creation phase and code execution phase
 
 // memory creation phase
 // memory is allocation to n, square2, square4 and square
@@ -43,7 +43,7 @@ console.log(square4);
 // when a function is invoked a new execution context is created and pushed into the callstack
 // when a function is done it's correpsonding execution stack is removed from the callstack
 // when whole code is done the gec is popped of from the call stack
-// callstack maintains the order of execution of execution contexts
+// callstack maintains the order of execution contexts
 
 // callstack is also known as:
 // execution context stack

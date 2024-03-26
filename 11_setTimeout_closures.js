@@ -24,7 +24,7 @@
 // x();
 // all the callback functions will refer to the same i
 
-// example 3 (second attempty)
+// example 3 (second attempt)
 // function x()
 // {
 //     for(let i = 1; i<=5; i++)
@@ -35,18 +35,18 @@
 //     }
 // };
 // x();
-// every callback references to a new copy of 
+// every callback references to a new copy of i
 
 // example 4 (third attempty)
-function x()
-{
-    for(var i = 1; i<=5; i++)
-    {
-        setTimeout((x) => {
-            console.log(x);
-        }, i*1000,i);
-    }
-};
-x();
+// function x()
+// {
+//     for(var i = 1; i<=5; i++)
+//     {
+//         setTimeout((x) => {
+//             console.log(x);
+//         }, i*1000,i);
+//     }
+// };
+// x();
 
 // time tide and javascript waits for none
