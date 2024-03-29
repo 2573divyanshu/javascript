@@ -11,7 +11,7 @@ function b(){
     console.log(x);
 };
 // x is allocated memory
-// x is assigned 1
+// x is assigned undefined
 // a is allocated memory
 // a is assigned the function definition
 // b is allocated memory
@@ -25,4 +25,4 @@ function b(){
 // local x is logged into the console
 // control is returned
 // b is called (similarly)
-// whole code done, gec is popped off the call stack
+// when whole code gets done, gec is popped off the call stack

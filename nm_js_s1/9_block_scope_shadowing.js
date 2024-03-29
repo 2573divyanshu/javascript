@@ -14,6 +14,7 @@
 // console.log(b);
 // console.log(c);
 // var a = 10 shadowed var a = 11;
+// bs and cs aren't shadowed
 
 // example 2
 // let a = 2;

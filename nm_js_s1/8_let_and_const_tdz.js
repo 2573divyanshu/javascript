@@ -4,8 +4,7 @@
 // let a = 2;
 // var b = 3;
 // this will throw referencerror cannot access a before intialization
-// let is also hoisted
-// but they are not attached to the window object
+// let is also hoisted but they are not attached to the window object and remains in TDZ before code exection reaches the initialization line
 // they are stored in different memory space
 // we cannot access them before some value is put inside them
 // after a let or const variable is hoisted, it goes into tdz untill code execution reaches the line of it's initialization
@@ -27,6 +26,7 @@
 // this will give a type error
 // const is even more stricter
 // we cannot re-assign it another value
+// we need to intialize the const variable with a value at the time of it's declaration
 
 // typeeror: re-assigning a constant variable
 // syntaxerror: missing initializer in const declaration

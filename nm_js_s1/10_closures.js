@@ -7,7 +7,7 @@
 //     };
 // };
 // x();
-// a closure is a funtion bundled together with it's lexical environment
+// a closure is a function bundled together with it's lexical environment
 
 // example 2
 // function x(y){
@@ -33,19 +33,19 @@
 // even if the function is returned, it will remember it's original lexical scope
 
 // example 4
-function z() {
-    var b = 8;
-    function x() {
-        var a = 7;
-        function y() {
-            console.log(a,b);
-        };
-        a = 8;
-        y();
-    };
-    x();
-};
-z();
+// function z() {
+//     var b = 8;
+//     function x() {
+//         var a = 7;
+//         function y() {
+//             console.log(a,b);
+//         };
+//         a = 8;
+//         y();
+//     };
+//     x();
+// };
+// z();
 
 // closures are used in:
 // - module design pattern

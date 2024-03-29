@@ -42,16 +42,16 @@
 // the chain of lexical environments that the js engine traverses in order to find the value of a variable or a function is the scope chain
 
 // example 4
-function a(){
-    var var1 = 1;
-    b();
-    function b(){
-        var var2 = 2;
-        c();
-        function c(){
-            var var3 = 3;
-            console.log(var1,var2,var3);
-        };
-    };
-};
-a();
+// function a(){
+//     var var1 = 1;
+//     b();
+//     function b(){
+//         var var2 = 2;
+//         c();
+//         function c(){
+//             var var3 = 3;
+//             console.log(var1,var2,var3);
+//         };
+//     };
+// };
+// a();

@@ -1,6 +1,6 @@
 // example 1
-// console.log(getName);
-// getName();
+// console.log(getName); // gives undefined
+// getName(); // function invoked!
 // console.log(x);
 // var x = 7;
 // function getName(){
@@ -11,8 +11,8 @@
 
 // example 2
 // console.log(getName);
-// // getName();
-// console.log(x);
+// console.log(x); // gives undefined
+// getName(); // will throw error
 // var x = 7;
 // var getName = ()=>{
 //     console.log("Namaste JavaScript");
@@ -21,14 +21,14 @@
 // arrow functions are hoisted with undefined (they behave like variables)
 
 // example 3
-console.log(getName);
+// console.log(getName);
 // getName();
-console.log(x);
-var x = 7;
-var getName = function(){
-    console.log("Namaste JavaScript");
-};
-console.log(getName);
+// console.log(x);
+// var x = 7;
+// var getName = function(){
+//     console.log("Namaste JavaScript");
+// };
+// console.log(getName);
 // function expressions are hoisted with undefined (they behave like variables)
 
 // variables, function expressions and arrow functions are hoisted with value undefined
